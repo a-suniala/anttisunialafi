@@ -1,0 +1,15 @@
+<template name="tagsList">
+
+  <div class="jumbotron text-center">
+
+    <h2 class="font-light">A few interests of mine</h2>
+
+    <div class="list-group-item">
+      {{#each tags}}
+        {{> tag}}
+      {{/each}}
+    </div>
+
+  </div>
+
+</template>
